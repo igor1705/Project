@@ -1,0 +1,10 @@
+D:\Work\Education projects\SkyDrive\Projects\Lesson2_HW\Lesson2_HW\bin\Debug\Lesson2_HW.exe
+D:\Work\Education projects\SkyDrive\Projects\Lesson2_HW\Lesson2_HW\bin\Debug\Lesson2_HW.pdb
+D:\Work\Education projects\SkyDrive\Projects\Lesson2_HW\Lesson2_HW\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Work\Education projects\SkyDrive\Projects\Lesson2_HW\Lesson2_HW\obj\x86\Debug\Lesson2_HW.exe
+D:\Work\Education projects\SkyDrive\Projects\Lesson2_HW\Lesson2_HW\obj\x86\Debug\Lesson2_HW.pdb
+D:\Work\StudyRepository\Project\Lesson2_HW\Lesson2_HW\obj\x86\Debug\Lesson2_HW.exe
+D:\Work\StudyRepository\Project\Lesson2_HW\Lesson2_HW\obj\x86\Debug\Lesson2_HW.pdb
+D:\Work\StudyRepository\Project\Lesson2_HW\Lesson2_HW\bin\Debug\Lesson2_HW.exe
+D:\Work\StudyRepository\Project\Lesson2_HW\Lesson2_HW\bin\Debug\Lesson2_HW.pdb
+D:\Work\StudyRepository\Project\Lesson2_HW\Lesson2_HW\obj\x86\Debug\ResolveAssemblyReference.cache

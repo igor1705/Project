@@ -1,0 +1,5 @@
+D:\C# Courses\HW3\HW3\HW3\bin\Release\HW3.exe
+D:\C# Courses\HW3\HW3\HW3\bin\Release\HW3.pdb
+D:\C# Courses\HW3\HW3\HW3\obj\x86\Release\ResolveAssemblyReference.cache
+D:\C# Courses\HW3\HW3\HW3\obj\x86\Release\HW3.exe
+D:\C# Courses\HW3\HW3\HW3\obj\x86\Release\HW3.pdb

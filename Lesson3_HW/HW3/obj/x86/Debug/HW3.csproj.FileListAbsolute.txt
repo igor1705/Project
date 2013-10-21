@@ -1,0 +1,10 @@
+C:\Users\Igor_PC\AppData\Local\Temporary Projects\HW3\bin\Debug\HW3.exe
+C:\Users\Igor_PC\AppData\Local\Temporary Projects\HW3\bin\Debug\HW3.pdb
+C:\Users\Igor_PC\AppData\Local\Temporary Projects\HW3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Igor_PC\AppData\Local\Temporary Projects\HW3\obj\x86\Debug\HW3.exe
+C:\Users\Igor_PC\AppData\Local\Temporary Projects\HW3\obj\x86\Debug\HW3.pdb
+D:\C# Courses\HW3\HW3\HW3\obj\x86\Debug\HW3.exe
+D:\C# Courses\HW3\HW3\HW3\obj\x86\Debug\HW3.pdb
+D:\C# Courses\HW3\HW3\HW3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C# Courses\HW3\HW3\HW3\bin\Debug\HW3.exe
+D:\C# Courses\HW3\HW3\HW3\bin\Debug\HW3.pdb

@@ -38,7 +38,7 @@ namespace HW3
 
             try
             {
-                Console.WriteLine("Please enter some float number:");
+                Console.WriteLine("Please enter some float number <100:");
                 a = Convert.ToDouble(Console.ReadLine());
                 
             }
@@ -48,25 +48,30 @@ namespace HW3
                 Console.WriteLine("Error occured, please try again:");
             }
 
-            
-            Console.WriteLine("You entered {0}", a);
-
-            str_digits = Convert.ToString(a);
-
-            for (int i = 0; i < str_digits.Length; i++)
+            if (a < 100)
             {
-                if (str_digits[i] != '.')
+
+                str_digits = Convert.ToString(a);
+
+                for (int i = 0; i < str_digits.Length; i++)
                 {
-                    digits_count++;
-                    digits_sum += Convert.ToInt32(str_digits[i].ToString());
+                    if (str_digits[i] != '.')
+                    {
+                        digits_count++;
+                        digits_sum += Convert.ToInt32(str_digits[i].ToString());
+                    }
                 }
+
+
+                Console.WriteLine("digits_count {0}", digits_count);
+                Console.WriteLine("digits_sum {0}", digits_sum);
+            }
+            else
+            {
+                Console.WriteLine("You entered number more than 100, please try again");
             }
 
-
-            Console.WriteLine("digits_count {0}", digits_count);
-            Console.WriteLine("digits_sum {0}", digits_sum);
-                     
-
+            Console.WriteLine("Please enter any key to continue");
             Console.ReadKey();
           
         }
@@ -171,9 +176,15 @@ namespace HW3
                else
                    Console.Write(symbol);
            }
+        }
+
+       public static void task5()
+       {
+       }
 
 
-
+       public static void task6()
+       {
        }
 
 
@@ -212,6 +223,14 @@ namespace HW3
 
                     case 4:
                         task4();
+                        break;
+
+                    case 5:
+                        task5();
+                        break;
+
+                    case 6:
+                        task6();
                         break;
 
 

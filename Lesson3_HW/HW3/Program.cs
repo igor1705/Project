@@ -144,7 +144,7 @@ namespace HW3
            int line_lenght = 0;
            bool is_vertical = false;
 
-                   try
+          try
            {
                Console.WriteLine("Please enter line lenght:");
                line_lenght = Convert.ToInt32(Console.ReadLine());
@@ -180,6 +180,36 @@ namespace HW3
 
        public static void task5()
        {
+           int start_num = 0, end_num = 0;
+           int range_sum = 0;
+
+
+           /*5. Написать программу, которая находит сумму всех целых нечетных чисел в диапазоне, указанном пользователе.*/
+
+           try
+           {
+               Console.WriteLine("Please enter start range value");
+               start_num = Convert.ToInt32(Console.ReadLine());
+
+               Console.WriteLine("Please enter end range value:");
+               end_num = Convert.ToInt32(Console.ReadLine());
+           }
+
+           catch
+           {
+               Console.WriteLine("An error occured, please try again");
+           }
+
+
+           for (int i = start_num; i <= end_num; i++)
+           {
+
+               if ((i % 2) != 0)
+                   range_sum += i;
+                   
+           }
+
+           Console.WriteLine("Not even int sum is {0}", range_sum);
        }
 
 

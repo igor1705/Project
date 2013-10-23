@@ -31,17 +31,44 @@ namespace HW3
         {
             /*  2. Дано натуральное число а (a<100). Напишите программу, выводящую на экран количество цифр в этом числе и сумму этих цифр.*/
 
-            int a = 0;
-            Console.WriteLine("Please enter some number:");
-            a = Convert.ToInt32(Console.ReadLine());
+            double a = 0.0;
+            string str_digits="";
+            int digits_count = 0, digits_sum = 0;
+           
 
-            if ((a % 2) == 0 )
+            try
+            {
+                Console.WriteLine("Please enter some float number:");
+                a = Convert.ToDouble(Console.ReadLine());
+                
+            }
+
+            catch
+            {
+                Console.WriteLine("Error occured, please try again:");
+            }
+
             
-                Console.WriteLine("You entered even number:");
-            else
-                Console.WriteLine("You entered not even number:");
+            Console.WriteLine("You entered {0}", a);
+
+            str_digits = Convert.ToString(a);
+
+            for (int i = 0; i < str_digits.Length; i++)
+            {
+                if (str_digits[i] != '.')
+                {
+                    digits_count++;
+                    digits_sum += Convert.ToInt32(str_digits[i].ToString());
+                }
+            }
 
 
+            Console.WriteLine("digits_count {0}", digits_count);
+            Console.WriteLine("digits_sum {0}", digits_sum);
+                     
+
+            Console.ReadKey();
+          
         }
 
        public static void task3()
@@ -98,6 +125,54 @@ namespace HW3
 
            } while (selected != 0);
 
+       }
+
+       public static void task4()
+       {
+        /*
+           Разработать программу, которая выводит на экран линию из символов. Число символов, какой использовать символ, 
+         * и какая будет линия - вертикальная, или горизонтальная - указывает пользователь. 
+        */
+
+
+           char symbol =' ';
+           int line_lenght = 0;
+           bool is_vertical = false;
+
+                   try
+           {
+               Console.WriteLine("Please enter line lenght:");
+               line_lenght = Convert.ToInt32(Console.ReadLine());
+
+               Console.WriteLine("Please enter line symbol:");
+               symbol = Convert.ToChar(Console.ReadLine());
+
+               Console.WriteLine("Please enter 1 - for vertical or something else - for gorizonal line:");
+               if (Console.ReadLine() == "1")
+                   is_vertical = true;
+               else
+                   is_vertical = false;
+
+           }
+
+           catch
+           {
+               Console.WriteLine("Error occured, please try again:");
+           }
+
+           Console.WriteLine("You entered {0}", line_lenght);
+           Console.WriteLine("You entered {0}", symbol);
+
+
+           for (int i = 0; i < line_lenght; i++)
+           {
+               if (is_vertical == true) 
+                   Console.WriteLine(symbol);
+               else
+                   Console.Write(symbol);
+           }
+
+
 
        }
 
@@ -133,6 +208,10 @@ namespace HW3
 
                     case 3:
                         task3();
+                        break;
+
+                    case 4:
+                        task4();
                         break;
 
 

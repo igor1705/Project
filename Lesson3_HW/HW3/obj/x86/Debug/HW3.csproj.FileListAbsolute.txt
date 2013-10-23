@@ -8,3 +8,8 @@ D:\C# Courses\HW3\HW3\HW3\obj\x86\Debug\HW3.pdb
 D:\C# Courses\HW3\HW3\HW3\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\C# Courses\HW3\HW3\HW3\bin\Debug\HW3.exe
 D:\C# Courses\HW3\HW3\HW3\bin\Debug\HW3.pdb
+D:\Work\StudyRepository\Project\Lesson3_HW\HW3\obj\x86\Debug\HW3.exe
+D:\Work\StudyRepository\Project\Lesson3_HW\HW3\obj\x86\Debug\HW3.pdb
+D:\Work\StudyRepository\Project\Lesson3_HW\HW3\bin\Debug\HW3.exe
+D:\Work\StudyRepository\Project\Lesson3_HW\HW3\bin\Debug\HW3.pdb
+D:\Work\StudyRepository\Project\Lesson3_HW\HW3\obj\x86\Debug\ResolveAssemblyReference.cache

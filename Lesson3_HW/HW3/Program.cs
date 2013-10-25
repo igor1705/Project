@@ -215,6 +215,41 @@ namespace HW3
 
        public static void task6()
        {
+
+           /*           6. Дано натуральное число n. Написать программу, которая вычисляет факториал неотрицательных целых чисел n (т.е. число целое и больше 0). Формула вычисления факториала приведена ниже.
+                        n! = 1*2*3*....*n, (формула вычисления факториала числа n)
+                        0! = 1 (факториал 0 равен 1 (по определению факториала))
+           */
+
+
+           int n = 0;
+           int factor = 1;
+           
+           try
+           {
+               Console.WriteLine("Please enter n  value");
+               n = Convert.ToInt32(Console.ReadLine());
+           }
+
+           catch
+           {
+               Console.WriteLine("An error occured, please try again");
+           }
+
+           if (n == 0) 
+               factor = 1;
+           else
+           {
+
+               for (int i = 1; i <= n;  i++)
+               {
+                   factor = factor * i;
+               }
+
+           }
+
+           Console.WriteLine("Factorial = {0}", factor);
+
        }
 
 

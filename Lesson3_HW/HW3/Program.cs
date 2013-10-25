@@ -227,7 +227,7 @@ namespace HW3
            
            try
            {
-               Console.WriteLine("Please enter n  value");
+               Console.WriteLine("Please enter n value >0");
                n = Convert.ToInt32(Console.ReadLine());
            }
 
@@ -236,19 +236,25 @@ namespace HW3
                Console.WriteLine("An error occured, please try again");
            }
 
-           if (n == 0) 
-               factor = 1;
-           else
+           if (n > 0)
            {
 
-               for (int i = 1; i <= n;  i++)
+               if (n == 0)
+                   factor = 1;
+               else
                {
-                   factor = factor * i;
+
+                   for (int i = 1; i <= n; i++)
+                   {
+                       factor = factor * i;
+                   }
+
                }
 
+               Console.WriteLine("Factorial = {0}", factor);
            }
-
-           Console.WriteLine("Factorial = {0}", factor);
+           else
+               Console.WriteLine("Unable to calcalate negative factorial");
 
        }
 

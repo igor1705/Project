@@ -167,13 +167,47 @@ namespace HW4
 
         }
 
+        public static void GatherStrStatistincs(string inputstr)
+        {
+            /*
+            Статистика должна включать общееколичество символов, количество букв(и сколько вверхнем регистре и нижнем), 
+             * количество цифр,количество символов пунктуаци и и количество пробельныхсимволов.  */
 
+            Console.WriteLine("Characters count: {0}", inputstr.Length);
+
+            int uppercount=0,lowercount=0;
+            string newst;
+
+            foreach (var item in inputstr)
+            {
+                
+                newst = Convert.ToString(item);
+
+                if (Convert.ToString(item) == newst.ToUpper())
+                    uppercount++;
+
+                if (Convert.ToString(item) == newst.ToLower())
+                    lowercount++;
+                
+            }
+
+
+            Console.WriteLine("Characters count: {0}", inputstr.Length);
+            Console.WriteLine("Upper case count: {0}", uppercount);
+            Console.WriteLine("Lower case count: {0}", lowercount);
+
+        }
 
         public static void task5()
         {
             /*5. Создать метод принимающий,введенную пользователем,строку и выводящий на экран статистику по этой строке. 
              * Статистика должна включать общееколичество символов, количество букв(и сколько вверхнем регистре и нижнем), 
              * количество цифр,количество символов пунктуаци и и количество пробельныхсимволов.*/
+
+            Console.WriteLine("Please enter string:");
+            string sometext = Console.ReadLine();
+
+            GatherStrStatistincs(sometext);
 
         }
 

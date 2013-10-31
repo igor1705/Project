@@ -134,13 +134,40 @@ namespace HW4
         {
             /*4. В двумерном массиве порядка M на N поменяйте местами заданные столбцы.*/
             int[,] arr = { {2, 0, 7}, {-5, -1, 15},{6, 3, 5} };
+            int[] tempArr;
+            int x_dim_lenght=0;
+            int y_dim_lenght=0;
 
-            for (int i = 0; i < arr.Length-1; i++)
+            x_dim_lenght = arr.GetLength(0);
+            y_dim_lenght = arr.GetLength(1);
+
+            tempArr = new int[y_dim_lenght];
+
+            for (int i = 0; i < x_dim_lenght; ++i)
             {
-                Console.Write("",arr[0,i]);
+                for (int j = 0; j < y_dim_lenght; ++j) Console.Write(arr[i, j] + " ");
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+
+            //Replace 1st and 3rd columns
+            for (int i = 0; i < x_dim_lenght; ++i)
+            {
+                tempArr[i] = arr[i, 0];
+                arr[i, 0] = arr[i, 2];
+                arr[i, 2] = tempArr[i];
+            }
+
+            //Output results
+            for (int i = 0; i < x_dim_lenght; ++i)
+            {
+                for (int j = 0; j < y_dim_lenght; ++j) Console.Write(arr[i, j] + " ");
+                Console.WriteLine();
             }
 
         }
+
+
 
         public static void task5()
         {

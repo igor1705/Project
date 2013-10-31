@@ -181,6 +181,28 @@ namespace HW4
         {
             /*6.пользователь вводит строку и символ. В строке найти все вхождения этого символа и перевести его в верхний регистр,
              * а также удалить часть строки, начиная с последнего вхождения этого символа и доконца.    */
+            string sometext, symbol;
+            int lastindex;
+       
+
+            Console.WriteLine("Please enter string:");
+            sometext = Console.ReadLine();
+
+
+            Console.WriteLine("Please enter some character:");
+            symbol = Console.ReadLine();
+
+
+            lastindex = sometext.LastIndexOf(symbol);
+
+            sometext = sometext.Replace(symbol, symbol.ToUpper());
+            sometext = sometext.Substring(0, lastindex);
+
+
+            foreach (var item in sometext)
+            {
+                Console.Write(item);
+            }
 
         }
 

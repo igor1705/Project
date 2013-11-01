@@ -5,6 +5,62 @@ using System.Text;
 
 namespace HW4
 {
+
+    class Student
+    {
+        public string firstName;
+        public string lastName;
+        public string middlename;
+
+        int[][] Subjects = new int[3][];
+
+
+        public Student(string in_firstName, string in_lastName, string in_middlename)
+        {
+            firstName = in_firstName;
+            lastName = in_lastName;
+            middlename = in_middlename;
+
+
+
+
+            for (int i = 0; i < 3; ++i)
+            {
+                //Initial filing
+                Subjects[i] = new int[i + 1];
+                Subjects[i][0] = i;
+            }
+
+
+
+        }
+
+
+        public void AddMarks(int subjid, int mark)
+        {
+            // subjid 0- administration 1-design 2- programming
+        }
+
+        public void OutStudent()
+        {
+            for (int i = 0; i < 3; ++i)
+            {
+                  for (int j = 0; j < i + 10; ++j)
+                {
+                    // Вывод на экран элементов
+                    Console.Write(Subjects[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+                
+             
+        }
+
+
+    }
+
+
     class Program
     {
         public static void task1()
@@ -12,8 +68,7 @@ namespace HW4
             /*1. Сжать массив,  удалив из него все 0 и заполнить освободившиеся справа элементы значениями-1*/
 
             int[] arr = { 2, 0, 1, 2, 0, 8 };
-
-           
+                       
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(arr[i]);   
@@ -38,7 +93,6 @@ namespace HW4
             {
                 Console.Write(rec);
             }
-
 
             Console.ReadKey();
 
@@ -293,6 +347,16 @@ namespace HW4
 
                     case 6:
                         task6();
+                        break;
+
+                    case 7:
+                        Console.WriteLine("Working with students class");
+
+                      
+                        Student st1 = new Student("Vasia","Pupkin","Baranov");
+
+                        st1.OutStudent();
+
                         break;
 
 

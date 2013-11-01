@@ -175,7 +175,7 @@ namespace HW4
 
             Console.WriteLine("Characters count: {0}", inputstr.Length);
 
-            int uppercount=0,lowercount=0;
+            int uppercount=0,lowercount=0,digitscount=0,spacescount=0,punctuationcount=0;
             string newst;
 
             foreach (var item in inputstr)
@@ -189,13 +189,24 @@ namespace HW4
                 if (Convert.ToString(item) == newst.ToLower())
                     lowercount++;
                 
+                if ( ((int)item >=48) && ((int)item <=57) )
+                    digitscount++;
+
+                if ((int)item == 32)
+                    spacescount++;
+                
+                if (Char.IsPunctuation(item))
+                    punctuationcount++;
             }
 
 
             Console.WriteLine("Characters count: {0}", inputstr.Length);
             Console.WriteLine("Upper case count: {0}", uppercount);
             Console.WriteLine("Lower case count: {0}", lowercount);
-
+            Console.WriteLine("Digits count: {0}", digitscount);
+            Console.WriteLine("Spaces count: {0}", spacescount);
+            Console.WriteLine("Punctuation symbols count: {0}", punctuationcount);
+           
         }
 
         public static void task5()

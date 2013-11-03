@@ -21,6 +21,11 @@ namespace HW5
             {
                 newx = ((c1 * b2) - (b1 * c2)) / ((a1 * b2) - (b1 * a2));
                 newy = ((a1 * c2) - (b2 * a2)) / ((a1 * b2) - (b1 * a2));
+
+
+                
+
+
             }
             catch (ArgumentOutOfRangeException e)
             {
@@ -30,7 +35,24 @@ namespace HW5
             {
                 return "Divide by zero error. Message:" + e.Message + "\r\n";
             }
+
+
+            if ((a1 * newx + b1 + newy) == c1)
+                return "ok";
+            else
+                return "not ok";
+
+
+            if ((a2 * newx + b2 + newy) == c2)
+                return "ok";
+            else
+                return "not ok";
+
+
             return "x = " + newx + "\r\n" + "y= " + newy;
+
+
+
 
         }
 
@@ -40,15 +62,14 @@ namespace HW5
 
 
             //1
-            Console.WriteLine(Program.lineequation(2,2,4,8,0,0));
+          //  Console.WriteLine(Program.lineequation(2,2,4,8,0,0));
 
             //2
 
             Console.WriteLine(Program.lineequation(3, -2, 1, 3, 4, 5));
 
             //3 - wrong solution 
-            Console.WriteLine(Program.lineequation(0, 0, 1, 3, 4, 5));
-
+         //   Console.WriteLine(Program.lineequation(0, 0, 1, 3, 4, 5));
 
             Console.ReadKey();
 

@@ -35,7 +35,8 @@ namespace HW5
 
                         coef cf;
 
-                        cf.a = 5;
+                        cf.a = Convert.ToInt32(parr[0]);
+                        cf.b = Convert.ToInt32(parr[1]);
 
                     }
                 }

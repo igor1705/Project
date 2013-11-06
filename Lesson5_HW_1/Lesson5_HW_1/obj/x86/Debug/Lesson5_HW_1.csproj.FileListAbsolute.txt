@@ -1,0 +1,5 @@
+D:\Work\StudyRepository\Project\Lesson5_HW_1\Lesson5_HW_1\bin\Debug\Lesson5_HW_1.exe
+D:\Work\StudyRepository\Project\Lesson5_HW_1\Lesson5_HW_1\bin\Debug\Lesson5_HW_1.pdb
+D:\Work\StudyRepository\Project\Lesson5_HW_1\Lesson5_HW_1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Work\StudyRepository\Project\Lesson5_HW_1\Lesson5_HW_1\obj\x86\Debug\Lesson5_HW_1.exe
+D:\Work\StudyRepository\Project\Lesson5_HW_1\Lesson5_HW_1\obj\x86\Debug\Lesson5_HW_1.pdb

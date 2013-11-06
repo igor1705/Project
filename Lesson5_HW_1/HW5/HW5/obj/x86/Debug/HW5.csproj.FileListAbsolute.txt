@@ -1,0 +1,19 @@
+D:\Education projects\Project\Lesson5_HW_1\HW5\HW5\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Education projects\Project\Lesson5_HW_1\HW5\HW5\bin\Debug\HW5.exe
+D:\Education projects\Project\Lesson5_HW_1\HW5\HW5\bin\Debug\HW5.pdb
+D:\Education projects\Project\Lesson5_HW_1\HW5\HW5\obj\x86\Debug\HW5.exe
+D:\Education projects\Project\Lesson5_HW_1\HW5\HW5\obj\x86\Debug\HW5.pdb
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+D:\Work\StudyRepository\Project\Lesson5_HW_1\HW5\HW5\bin\Debug\HW5.exe
+D:\Work\StudyRepository\Project\Lesson5_HW_1\HW5\HW5\bin\Debug\HW5.pdb
+D:\Work\StudyRepository\Project\Lesson5_HW_1\HW5\HW5\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Work\StudyRepository\Project\Lesson5_HW_1\HW5\HW5\obj\x86\Debug\HW5.exe
+D:\Work\StudyRepository\Project\Lesson5_HW_1\HW5\HW5\obj\x86\Debug\HW5.pdb
+=======
+>>>>>>> d7cee6725764a167fd3863d6c0d1051356b6eddf
+=======
+>>>>>>> d73bce5d00069c935c75d6dd609976facfd1e426
+=======
+>>>>>>> d73bce5d00069c935c75d6dd609976facfd1e426

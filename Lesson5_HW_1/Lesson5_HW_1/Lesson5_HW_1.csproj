@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{659C3E21-F3A4-414D-A02C-8E193DFDCBC3}</ProjectGuid>
+    <ProjectGuid>{5B531B67-7FB2-45A7-AD5D-0BEB01E00890}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HW5</RootNamespace>
-    <AssemblyName>HW5</AssemblyName>
+    <RootNamespace>Lesson5_HW_1</RootNamespace>
+    <AssemblyName>Lesson5_HW_1</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

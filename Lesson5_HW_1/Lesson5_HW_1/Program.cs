@@ -8,102 +8,49 @@ namespace HW5
     class Program
     {
 
-        class coefforline
-        {
-
-            public struct coef
-            {
-                public int a;
-                public int b;
-            }
-
-            public static void parse(string input)
-            {
-
-                string[] parr = input.Split(';');
-
-                try
-                {
-
-                    if (parr.Length != 2)
-                    {
-                        throw new FormatException("Incorrect number of params");
-                    }
-                    else
-                    {
-                        Console.WriteLine("ok");
-
-                        coef cf;
-
-                        cf.a = Convert.ToInt32(parr[0]);
-                        cf.b = Convert.ToInt32(parr[1]);
-
-                    }
-                }
-                catch (FormatException e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-
-
-            }
-        }
-
-
-        public static string lineequation(int a1, int b1, int a2, int b2, int c1, int c2)
-        {
-            /*
-            A1×X + B1×Y = C1
-            A2×X + B2×Y = C2
-            */
-
-            int newx = 0;
-            int newy = 0;
-            try
-            {
-                newx = ((c1 * b2) - (b1 * c2)) / ((a1 * b2) - (b1 * a2));
-                newy = ((a1 * c2) - (b2 * a2)) / ((a1 * b2) - (b1 * a2));
-
-                if (((a1 * newx + b1 * newy) == c1) || (a2 * newx + b2 * newy) == c2)
-                    return "Solution found: " + "\r\n" + "x = " + newx + "\r\n" + "y = " + newy;
-                else
-                    throw new ArgumentOutOfRangeException();
-
-            }
-            catch (ArgumentOutOfRangeException e)
-            {
-                return "Arguments out of range error. Message: " + e.Message + "\r\n";
-            }
-
-            catch (DivideByZeroException e)
-            {
-                return "Divide by zero error. Message:" + e.Message + "\r\n";
-            }
-
-
-
-        }
-
-
         static void Main(string[] args)
         {
 
             //1
-            Console.WriteLine(Program.lineequation(2, 2, 4, 8, 0, 0));
+            Console.WriteLine(coefforline.lineequation(2, 2, 4, 8, 0, 0));
 
             //2
-            Console.WriteLine(Program.lineequation(3, -2, 1, 3, 4, 5));
+            Console.WriteLine(coefforline.lineequation(3, -2, 1, 3, 4, 5));
 
             //3 - wrong solution 
-            Console.WriteLine(Program.lineequation(0, 0, 1, 3, 4, 5));
+            Console.WriteLine(coefforline.lineequation(0, 0, 1, 3, 4, 5));
 
             coefforline.parse("34;545");
 
             coefforline.parse("34;545;4");
 
+          
+            //-----------------------------------------------------------------------------------------------
+            //Taks 5 - comparing population
+            Lesson5_HW_1.Coutries.russia.moskow russia_cap = new Lesson5_HW_1.Coutries.russia.moskow();
+
+            Lesson5_HW_1.Coutries.ukraine.kiev ukraine_cap = new Lesson5_HW_1.Coutries.ukraine.kiev();
+
+            Lesson5_HW_1.Coutries.usa.washington usa_cap = new Lesson5_HW_1.Coutries.usa.washington();
+
+
+            if (russia_cap.population > ukraine_cap.population)
+            {
+                Console.WriteLine("Moskow bigger than Kiev ");
+            }
+
+            if (ukraine_cap.population > usa_cap.population)
+            {
+                Console.WriteLine("Washington population less than Kiev");
+            }
+            else
+            {
+                Console.WriteLine("Washington population bigger than Kiev");
+            }
+            //-----------------------------------------------------------------------------------------------
+
 
             Console.ReadKey();
-
         }
     }
 }

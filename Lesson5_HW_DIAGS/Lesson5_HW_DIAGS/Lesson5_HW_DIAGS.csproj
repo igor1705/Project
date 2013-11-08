@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5B531B67-7FB2-45A7-AD5D-0BEB01E00890}</ProjectGuid>
+    <ProjectGuid>{BB4E51AD-446D-4726-B532-A66E7BA20875}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson5_HW_1</RootNamespace>
-    <AssemblyName>Lesson5_HW_1</AssemblyName>
+    <RootNamespace>Lesson5_HW_DIAGS</RootNamespace>
+    <AssemblyName>Lesson5_HW_DIAGS</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoefClass\linecoef.cs" />
-    <Compile Include="Compex\complex.cs" />
-    <Compile Include="Countries\capitals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

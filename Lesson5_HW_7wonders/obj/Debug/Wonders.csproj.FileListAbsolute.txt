@@ -1,0 +1,14 @@
+D:\LevelUp\GitHub\LevelUpRepository\hw5\Wonders\bin\Debug\Wonders.exe.config
+D:\LevelUp\GitHub\LevelUpRepository\hw5\Wonders\bin\Debug\Wonders.exe
+D:\LevelUp\GitHub\LevelUpRepository\hw5\Wonders\bin\Debug\Wonders.pdb
+D:\LevelUp\GitHub\LevelUpRepository\hw5\Wonders\obj\Debug\Wonders.exe
+D:\LevelUp\GitHub\LevelUpRepository\hw5\Wonders\obj\Debug\Wonders.pdb
+D:\Work\hw5-1\Wonders\bin\Debug\Wonders.exe.config
+D:\Work\hw5-1\Wonders\obj\Debug\Wonders.exe
+D:\Work\hw5-1\Wonders\obj\Debug\Wonders.pdb
+D:\Work\StudyRepository\Project\Lesson5_HW_7wonders\bin\Debug\Wonders.exe.config
+D:\Work\StudyRepository\Project\Lesson5_HW_7wonders\obj\Debug\Wonders.exe
+D:\Work\StudyRepository\Project\Lesson5_HW_7wonders\obj\Debug\Wonders.pdb
+D:\Work\StudyRepository\Project\Lesson5_HW_7wonders\bin\Debug\Wonders.exe
+D:\Work\StudyRepository\Project\Lesson5_HW_7wonders\bin\Debug\Wonders.pdb
+D:\Work\StudyRepository\Project\Lesson5_HW_7wonders\obj\Debug\ResolveAssemblyReference.cache

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Lesson5_HW_1.Compex;
 
 namespace HW5
 {
@@ -48,6 +49,12 @@ namespace HW5
                 Console.WriteLine("Washington population bigger than Kiev");
             }
             //-----------------------------------------------------------------------------------------------
+
+
+            //Complex solution:
+            complex z = new complex(1, 1);
+            complex z1 = z - (z * z * z - 1) / (3 * z * z);
+            Console.WriteLine("Z1 = {0}", z1);
 
 
             Console.ReadKey();
